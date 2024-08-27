@@ -1,0 +1,131 @@
+
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
+
+#cityName {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#temperature {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+#weatherDescription {
+    font-size: 18px;
+    color: #555;
+}
+#weatherIcon {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.cloudy {
+    background: url('cloudy.svg') no-repeat center center;
+    background-size: contain;
+    animation: float 3s infinite ease-in-out;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* تم دارک */
+    color: #39FF14; /* رنگ سبز فسفری */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #1c1c1c; /* پس‌زمینه تیره برای کانتینر */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.3); /* سایه شبرنگ */
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #39FF14;
+    border-radius: 4px;
+    background-color: #121212;
+    color: #39FF14;
+}
+
+button:hover {
+    background-color: #39FF14;
+    color: #121212;
+    cursor: pointer;
+}
+
+#weatherIcon {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.cloudy {
+    background: url('cloudy.svg') no-repeat center center;
+    background-size: contain;
+    animation: float 3s infinite ease-in-out;
+}
+
+.sunny {
+    background: url('sunny.svg') no-repeat center center;
+    background-size: contain;
+    animation: spin 10s infinite linear;
+}
+
+.rainy {
+    background: url('rainy.svg') no-repeat center center;
+    background-size: contain;
+}
+
+.snowy {
+    background: url('snowy.svg') no-repeat center center;
+    background-size: contain;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translate
