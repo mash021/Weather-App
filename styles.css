@@ -1,22 +1,41 @@
 
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* تم دارک */
+    color: #39FF14; /* رنگ سبز فسفری */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #1c1c1c; /* پس‌زمینه تیره برای کانتینر */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.3); /* سایه شبرنگ */
+}
+
 input, button {
     padding: 10px;
     margin: 10px 0;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #39FF14;
     border-radius: 4px;
-}
-
-button {
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
+    background-color: #121212;
+    color: #39FF14;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #39FF14;
+    color: #121212;
+    cursor: pointer;
 }
+
+
 
 #weatherInfo {
     margin-top: 20px;
@@ -58,41 +77,6 @@ button:hover {
     100% {
         transform: translateY(0);
     }
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #121212; /* تم دارک */
-    color: #39FF14; /* رنگ سبز فسفری */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.container {
-    text-align: center;
-    background-color: #1c1c1c; /* پس‌زمینه تیره برای کانتینر */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 20px rgba(0, 255, 0, 0.3); /* سایه شبرنگ */
-}
-
-input, button {
-    padding: 10px;
-    margin: 10px 0;
-    font-size: 16px;
-    border: 1px solid #39FF14;
-    border-radius: 4px;
-    background-color: #121212;
-    color: #39FF14;
-}
-
-button:hover {
-    background-color: #39FF14;
-    color: #121212;
-    cursor: pointer;
 }
 
 #weatherIcon {
