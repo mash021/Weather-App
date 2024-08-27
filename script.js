@@ -1,6 +1,6 @@
 document.getElementById('searchButton').addEventListener('click', function() {
     const city = document.getElementById('cityInput').value;
-    const apiKey = 'dcca88c1d3058755e260b43515773103'; // اینجا باید کلید API خود را وارد کنید
+    const apiKey = ''; // اینجا باید کلید API خود را وارد کنید
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
 
